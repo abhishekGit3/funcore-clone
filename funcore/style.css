@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ---  Navbar ---*/
+.navbar{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: tomato;
+}
+.logo{
+    border-radius: 121%;
+    height: 3rem;
+    width: 3rem;
+}
+
+   
+   
+
+.navItems{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.navItems i{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.navItems span{
+    font-size: 12px;
+    font-weight: 500;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+
+ul>li{
+    list-style-type:none;
+}
+ul>li>a{
+    padding: 2rem;
+    text-decoration: none;
+    color: yellow;
+    font-family: sans-serif;
+}
+#searchbar{
+    width: 32%;
+    padding: 1rem;
+    outline: none;
+    border-radius: 6rem;
+    border: none;
+    font-size: 0.9rem;
+    margin-left: 9rem;
+}
