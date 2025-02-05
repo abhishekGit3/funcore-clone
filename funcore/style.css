@@ -1,3 +1,4 @@
+/* reset */
 *{
     margin: 0px;
     padding: 0px;
@@ -9,7 +10,7 @@
     height: 10vh;
     align-items: center;
     justify-content: space-around;
-    background-color: tomato;
+    background-color: #e9454d;
 }
 .logo{
     border-radius: 121%;
@@ -18,8 +19,6 @@
 }
 
    
-   
-
 .navItems{
     display: flex;
     flex-direction: column; 
@@ -57,3 +56,30 @@ ul>li>a{
     font-size: 0.9rem;
     margin-left: 9rem;
 }
+
+/* --- Second Navbar ---*/
+
+.navbar2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.navItems2 a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #e9454d;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 1rem;
+
+}
+
+/* our products section */
+.our_products{
+    height: 60vh;
+    background-color: yellow;
+}
+   

@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+}
+
+/* ---Categories Heading */
+#categories{
+    color: #e9454d;
+}
+#categories_heading{
+    display: inline;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+
+/* ---C contact Heading */
+.navbar2contact{
+    color: #e9454d;
+
+}
+#contact_heading{
+    display: inline;
+    font-size: 13px;
+    font-weight: 100;
+}
