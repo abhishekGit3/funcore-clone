@@ -87,7 +87,6 @@ ul>li>a{
 
 .card{
     overflow: hidden;
-    border: 2px solid black;
 }
 .card1{
     grid-row: 1/4;
