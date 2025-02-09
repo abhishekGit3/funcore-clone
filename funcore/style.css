@@ -101,3 +101,66 @@ ul>li>a{
     height: 100%;
     object-fit: cover;
 }
+
+
+/* second section */
+.ageSection{
+    height: 35vh;
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: rgb(97, 132, 230);
+}
+
+.shop_heading{
+    color: white;
+    margin-top: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+
+.itemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ageItem{
+    width: 10rem;
+    height: 9rem;
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 4px solid white;
+    font-family: cursive;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+.ageItem1{
+    background-color: #fccf39;
+}
+
+.ageItem2{
+    background-color: pink;
+}
+
+.ageItem3{
+    background-color: purple;
+}
+
+.ageItem4{
+    background-color: cyan;
+}
+.ageItem5{
+    background-color: green;
+}
+
+.ageItem6{
+    background-color: orange;
+}
